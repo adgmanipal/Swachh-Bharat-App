@@ -1,0 +1,1004 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */; };
+		22678B5AED9E442E4C66108DAC51E8AA /* Pods-SwachhBharatApp-SwachhBharatAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A82BB28E0D5DC8ACC184A9471A9F18 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FF67A39458EA10DBE3CF276895542B /* Pods-SwachhBharatAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F369D35798F3A9F75CA142C44DF10 /* Pods-SwachhBharatAppTests-dummy.m */; };
+		372FBDBCE9AD7790FC8D8C7496E3B214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */; };
+		395B8E77854C5D59F64144F53A0828E5 /* Pods-SwachhBharatApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D0A42E4F1275C7CB0FAA4625E7939A /* Pods-SwachhBharatApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */; };
+		7250F70D28C3317060C2D366A139CF2E /* Pods-SwachhBharatApp-SwachhBharatAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA75DEE576F05AF985880BC854C06F /* Pods-SwachhBharatApp-SwachhBharatAppUITests-dummy.m */; };
+		86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */; };
+		95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */; };
+		9B4B1FDA5EE15EF16FE95A35D56CBBD1 /* Pods-SwachhBharatApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F76A12C0F75CC6E871481D995A421D87 /* Pods-SwachhBharatApp-dummy.m */; };
+		A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */; };
+		A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */; };
+		AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5335C3D84686FAFE608431542716DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */; };
+		C70CC3A2DE92F8A0063E2F33DF80A714 /* Pods-SwachhBharatAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70058D5F096E73A593ACD53C40681D9C /* Pods-SwachhBharatAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10548B59A2671C1A8CF28CACB67684A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */; };
+		E1079F156F59C579FA88DB4E9AAFF00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */; };
+		FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C42625A522DBE7E3D24AADF91F22F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
+		89A0230D4E6F964746F5A574ECBDD099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB8A20917611A8AD17E2E0EE8271;
+			remoteInfo = TextFieldEffects;
+		};
+		F4929C2EE2CA2FA403A776ED8B991E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75ACB77015303CF5C03900729C4E2617;
+			remoteInfo = "Pods-SwachhBharatApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B7BD707DEB522201CE0A46E66C3A0D /* Pods-SwachhBharatApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwachhBharatApp-frameworks.sh"; sourceTree = "<group>"; };
+		0B14E1A1FECC09AF39DC33286151CCAE /* Pods-SwachhBharatApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwachhBharatApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C5E625D23A0E508E2692FA87687910A /* Pods-SwachhBharatApp-SwachhBharatAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12CA62AC5819063C710ACEE750E27D19 /* Pods-SwachhBharatApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwachhBharatApp-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C2E24D66A5060C787493A58AFB6F171 /* Pods-SwachhBharatAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwachhBharatAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C3EFFCE4ECC92048E7DC7C10C9AD564 /* Pods-SwachhBharatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwachhBharatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F1031DFB7582322A285C4B8CAEE41B2 /* Pods-SwachhBharatApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwachhBharatApp.modulemap"; sourceTree = "<group>"; };
+		57EEB71CED31B90792DA63D796BB1717 /* Pods-SwachhBharatAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwachhBharatAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		5E49A9633A970414F075AFB6C3CE34C9 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		659BF8D4FFC93A0A8E3E874D83CC876C /* Pods-SwachhBharatApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwachhBharatApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C966861F28F9DA256DB57E82BF54EFA /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		70058D5F096E73A593ACD53C40681D9C /* Pods-SwachhBharatAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwachhBharatAppTests-umbrella.h"; sourceTree = "<group>"; };
+		78849713FCBC68F513E86AC83D276530 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests-Info.plist"; sourceTree = "<group>"; };
+		78E1B916F3A83E440DCD3FCC9A45FF88 /* Pods_SwachhBharatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwachhBharatAppTests.framework; path = "Pods-SwachhBharatAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816768D7828AEE75908D694D8E4D5816 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86A82BB28E0D5DC8ACC184A9471A9F18 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		87633DCB3F85C4C3FE11503F848030BA /* Pods-SwachhBharatApp-SwachhBharatAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests.modulemap"; sourceTree = "<group>"; };
+		877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.release.xcconfig; sourceTree = "<group>"; };
+		88986892BB108EE507F4F90E5A75A36F /* Pods_SwachhBharatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwachhBharatApp.framework; path = "Pods-SwachhBharatApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9C170352A39121152EB918E9E0BEA3 /* Pods-SwachhBharatAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwachhBharatAppTests-Info.plist"; sourceTree = "<group>"; };
+		8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9922B8D8A2C9E19219849E9FF4C89459 /* Pods-SwachhBharatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwachhBharatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9BAA75DEE576F05AF985880BC854C06F /* Pods-SwachhBharatApp-SwachhBharatAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		B59D20A1E7AAC2B97A251A074069F862 /* Pods-SwachhBharatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwachhBharatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		B8167E6ED210703CEB13057D87A95CB2 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.debug.xcconfig; sourceTree = "<group>"; };
+		BCFA788667D80B0B16D83A16BC2E5A47 /* Pods-SwachhBharatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwachhBharatApp.release.xcconfig"; sourceTree = "<group>"; };
+		BE655CC77CE6BD758B8B805BCB0509EF /* TextFieldEffects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFieldEffects-Info.plist"; sourceTree = "<group>"; };
+		C1D24AC2138FE42B4F860F4B0CF949B6 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C64F369D35798F3A9F75CA142C44DF10 /* Pods-SwachhBharatAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwachhBharatAppTests-dummy.m"; sourceTree = "<group>"; };
+		CF645C42A15E2D181A0C57CAA622A03E /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwachhBharatApp_SwachhBharatAppUITests.framework; path = "Pods-SwachhBharatApp-SwachhBharatAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		DA2F3FE02FD712BD3C3C19B6816160F4 /* Pods-SwachhBharatAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwachhBharatAppTests.modulemap"; sourceTree = "<group>"; };
+		E6D0A42E4F1275C7CB0FAA4625E7939A /* Pods-SwachhBharatApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwachhBharatApp-umbrella.h"; sourceTree = "<group>"; };
+		F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		F76A12C0F75CC6E871481D995A421D87 /* Pods-SwachhBharatApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwachhBharatApp-dummy.m"; sourceTree = "<group>"; };
+		F8E41FA8ECAD2D50B72379842D1A4CD1 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E95F5C5F407A9F53242CCC347396A2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5335C3D84686FAFE608431542716DF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B745E18AC2D0EF09857E3B4B669F8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1079F156F59C579FA88DB4E9AAFF00F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857E1370BAEE8DFF4A3D96FBCD0E4B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372FBDBCE9AD7790FC8D8C7496E3B214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B787F0B7E249DD460EE5386ED2353444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10548B59A2671C1A8CF28CACB67684A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922C4CCE5B0AA0DFC71B3B54929E3A95 /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42662E9F814E830FCC3E49DCF736199E /* Pods-SwachhBharatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F3FE02FD712BD3C3C19B6816160F4 /* Pods-SwachhBharatAppTests.modulemap */,
+				57EEB71CED31B90792DA63D796BB1717 /* Pods-SwachhBharatAppTests-acknowledgements.markdown */,
+				3C2E24D66A5060C787493A58AFB6F171 /* Pods-SwachhBharatAppTests-acknowledgements.plist */,
+				C64F369D35798F3A9F75CA142C44DF10 /* Pods-SwachhBharatAppTests-dummy.m */,
+				8E9C170352A39121152EB918E9E0BEA3 /* Pods-SwachhBharatAppTests-Info.plist */,
+				70058D5F096E73A593ACD53C40681D9C /* Pods-SwachhBharatAppTests-umbrella.h */,
+				B59D20A1E7AAC2B97A251A074069F862 /* Pods-SwachhBharatAppTests.debug.xcconfig */,
+				4C3EFFCE4ECC92048E7DC7C10C9AD564 /* Pods-SwachhBharatAppTests.release.xcconfig */,
+			);
+			name = "Pods-SwachhBharatAppTests";
+			path = "Target Support Files/Pods-SwachhBharatAppTests";
+			sourceTree = "<group>";
+		};
+		4CC4B541C2E46917D42290BF5FF1708B /* Pods-SwachhBharatApp-SwachhBharatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87633DCB3F85C4C3FE11503F848030BA /* Pods-SwachhBharatApp-SwachhBharatAppUITests.modulemap */,
+				0C5E625D23A0E508E2692FA87687910A /* Pods-SwachhBharatApp-SwachhBharatAppUITests-acknowledgements.markdown */,
+				B8167E6ED210703CEB13057D87A95CB2 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-acknowledgements.plist */,
+				9BAA75DEE576F05AF985880BC854C06F /* Pods-SwachhBharatApp-SwachhBharatAppUITests-dummy.m */,
+				C1D24AC2138FE42B4F860F4B0CF949B6 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-frameworks.sh */,
+				78849713FCBC68F513E86AC83D276530 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-Info.plist */,
+				86A82BB28E0D5DC8ACC184A9471A9F18 /* Pods-SwachhBharatApp-SwachhBharatAppUITests-umbrella.h */,
+				816768D7828AEE75908D694D8E4D5816 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig */,
+				5E49A9633A970414F075AFB6C3CE34C9 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig */,
+			);
+			name = "Pods-SwachhBharatApp-SwachhBharatAppUITests";
+			path = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests";
+			sourceTree = "<group>";
+		};
+		61D66AF7424D2E35C6FA5E76342F0A75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C765226E2F29FFEAF294691CB40E32 /* Pods-SwachhBharatApp */,
+				4CC4B541C2E46917D42290BF5FF1708B /* Pods-SwachhBharatApp-SwachhBharatAppUITests */,
+				42662E9F814E830FCC3E49DCF736199E /* Pods-SwachhBharatAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71C765226E2F29FFEAF294691CB40E32 /* Pods-SwachhBharatApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F1031DFB7582322A285C4B8CAEE41B2 /* Pods-SwachhBharatApp.modulemap */,
+				0B14E1A1FECC09AF39DC33286151CCAE /* Pods-SwachhBharatApp-acknowledgements.markdown */,
+				659BF8D4FFC93A0A8E3E874D83CC876C /* Pods-SwachhBharatApp-acknowledgements.plist */,
+				F76A12C0F75CC6E871481D995A421D87 /* Pods-SwachhBharatApp-dummy.m */,
+				02B7BD707DEB522201CE0A46E66C3A0D /* Pods-SwachhBharatApp-frameworks.sh */,
+				12CA62AC5819063C710ACEE750E27D19 /* Pods-SwachhBharatApp-Info.plist */,
+				E6D0A42E4F1275C7CB0FAA4625E7939A /* Pods-SwachhBharatApp-umbrella.h */,
+				9922B8D8A2C9E19219849E9FF4C89459 /* Pods-SwachhBharatApp.debug.xcconfig */,
+				BCFA788667D80B0B16D83A16BC2E5A47 /* Pods-SwachhBharatApp.release.xcconfig */,
+			);
+			name = "Pods-SwachhBharatApp";
+			path = "Target Support Files/Pods-SwachhBharatApp";
+			sourceTree = "<group>";
+		};
+		922C4CCE5B0AA0DFC71B3B54929E3A95 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				5F4C3C09CA133F581750E48C1A713C90 /* AkiraTextField.swift */,
+				63B9DED95880FEFD6B9F2F70903A211E /* HoshiTextField.swift */,
+				F39BC466B0425113CAC2625AB3FE6E64 /* IsaoTextField.swift */,
+				A5C90B0D7216EBC8C5E7D1CDA649A2ED /* JiroTextField.swift */,
+				B09F7DC0288B3111A26F6943CF65739A /* KaedeTextField.swift */,
+				5942C7778838F8E91CC7F73F1980AD8B /* MadokaTextField.swift */,
+				D5F1EED4AB9CD5C9D6757A94162D9650 /* MinoruTextField.swift */,
+				B29477B9697CB1C8BCEE55B494CDD0E3 /* TextFieldEffects.swift */,
+				FC73B25C9DDB458F1536727156C0408B /* YokoTextField.swift */,
+				5CA5ADC27A2313F98A4A5602F0FB560C /* YoshikoTextField.swift */,
+				9DBE3EA6B94EFF55E48A4115AA3128F3 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		9DBE3EA6B94EFF55E48A4115AA3128F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E41FA8ECAD2D50B72379842D1A4CD1 /* TextFieldEffects.modulemap */,
+				8EF7C4F3953DD8485F14CA5EFB67FDD8 /* TextFieldEffects-dummy.m */,
+				BE655CC77CE6BD758B8B805BCB0509EF /* TextFieldEffects-Info.plist */,
+				6C966861F28F9DA256DB57E82BF54EFA /* TextFieldEffects-prefix.pch */,
+				B6BDF80017C12ED969B2B92A555DCB54 /* TextFieldEffects-umbrella.h */,
+				BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */,
+				877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				13CAE37B77F3FC74C09C5AAD6F32216C /* Pods */,
+				F42523F308981411FAB7073284FF47D5 /* Products */,
+				61D66AF7424D2E35C6FA5E76342F0A75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F42523F308981411FAB7073284FF47D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88986892BB108EE507F4F90E5A75A36F /* Pods_SwachhBharatApp.framework */,
+				CF645C42A15E2D181A0C57CAA622A03E /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework */,
+				78E1B916F3A83E440DCD3FCC9A45FF88 /* Pods_SwachhBharatAppTests.framework */,
+				9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43B616CB4B693FD13F550ED5D256FC75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70CC3A2DE92F8A0063E2F33DF80A714 /* Pods-SwachhBharatAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7308210D934D2261B95DDBF8C76781D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22678B5AED9E442E4C66108DAC51E8AA /* Pods-SwachhBharatApp-SwachhBharatAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BBFEF6E2C38C93291C9F63C30A418C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395B8E77854C5D59F64144F53A0828E5 /* Pods-SwachhBharatApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C157353C93028E802E01175464C44D79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9FF4C66667F464BFA16BC0AC830025 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75ACB77015303CF5C03900729C4E2617 /* Pods-SwachhBharatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51320C773B50DFE0F86CA905F5F3D4F /* Build configuration list for PBXNativeTarget "Pods-SwachhBharatApp" */;
+			buildPhases = (
+				B7BBFEF6E2C38C93291C9F63C30A418C /* Headers */,
+				24C8CCB88B8617F4E86F39DE3F052E81 /* Sources */,
+				0E95F5C5F407A9F53242CCC347396A2B /* Frameworks */,
+				A3619E2987BA21456E774D23F309BE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76ADE9C23E0313992677914427D586FF /* PBXTargetDependency */,
+			);
+			name = "Pods-SwachhBharatApp";
+			productName = "Pods-SwachhBharatApp";
+			productReference = 88986892BB108EE507F4F90E5A75A36F /* Pods_SwachhBharatApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D82B2B9737CA17F59ED247BF3739B6 /* Pods-SwachhBharatApp-SwachhBharatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932A22B7A94298BBE8CA8814EB2A62A0 /* Build configuration list for PBXNativeTarget "Pods-SwachhBharatApp-SwachhBharatAppUITests" */;
+			buildPhases = (
+				7308210D934D2261B95DDBF8C76781D1 /* Headers */,
+				07CCA81D0801DE40C4A22AF8ACC63D41 /* Sources */,
+				1B745E18AC2D0EF09857E3B4B669F8CD /* Frameworks */,
+				F5BD2E7C7D8D989BAA10A27FF71F1DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E21BB71FF396A591205E5375D9DE1B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwachhBharatApp-SwachhBharatAppUITests";
+			productName = "Pods-SwachhBharatApp-SwachhBharatAppUITests";
+			productReference = CF645C42A15E2D181A0C57CAA622A03E /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97510152AD5490DAC20126D6813FE773 /* Pods-SwachhBharatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF4019BC68AF5B7F497F7F1A65278C3 /* Build configuration list for PBXNativeTarget "Pods-SwachhBharatAppTests" */;
+			buildPhases = (
+				43B616CB4B693FD13F550ED5D256FC75 /* Headers */,
+				D664AAD47F88617B6C896107789B0314 /* Sources */,
+				857E1370BAEE8DFF4A3D96FBCD0E4B2F /* Frameworks */,
+				2ABB6C563DB77115C264489540979A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87E66E997C9F19C654EB743816D5F3E /* PBXTargetDependency */,
+			);
+			name = "Pods-SwachhBharatAppTests";
+			productName = "Pods-SwachhBharatAppTests";
+			productReference = 78E1B916F3A83E440DCD3FCC9A45FF88 /* Pods_SwachhBharatAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				C157353C93028E802E01175464C44D79 /* Headers */,
+				F9E16FB1F505A7BDD4CC60D24ED7555B /* Sources */,
+				B787F0B7E249DD460EE5386ED2353444 /* Frameworks */,
+				2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = 9506DA724C6F10EF01A979CAA24AB55D /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F42523F308981411FAB7073284FF47D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75ACB77015303CF5C03900729C4E2617 /* Pods-SwachhBharatApp */,
+				91D82B2B9737CA17F59ED247BF3739B6 /* Pods-SwachhBharatApp-SwachhBharatAppUITests */,
+				97510152AD5490DAC20126D6813FE773 /* Pods-SwachhBharatAppTests */,
+				D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ABB6C563DB77115C264489540979A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA43BDC71E65F6BD504488174D8B7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3619E2987BA21456E774D23F309BE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BD2E7C7D8D989BAA10A27FF71F1DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CCA81D0801DE40C4A22AF8ACC63D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7250F70D28C3317060C2D366A139CF2E /* Pods-SwachhBharatApp-SwachhBharatAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C8CCB88B8617F4E86F39DE3F052E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4B1FDA5EE15EF16FE95A35D56CBBD1 /* Pods-SwachhBharatApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D664AAD47F88617B6C896107789B0314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FF67A39458EA10DBE3CF276895542B /* Pods-SwachhBharatAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E16FB1F505A7BDD4CC60D24ED7555B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BF8CF23188F30BC6635B94B06979AF /* AkiraTextField.swift in Sources */,
+				A93B19C2740982EB1EF58C4C13C33A1B /* HoshiTextField.swift in Sources */,
+				FAD2EF206C3D8CA21768F336C46A51E2 /* IsaoTextField.swift in Sources */,
+				86EED6E725DC04C21F0831112187BCE5 /* JiroTextField.swift in Sources */,
+				B95B5A7C1CD8DEE336E273AA9D401B74 /* KaedeTextField.swift in Sources */,
+				DD96FFE1264199929DE1AC969233AEFA /* MadokaTextField.swift in Sources */,
+				20DE67D72BDBAFE488ADFEA37248E7B1 /* MinoruTextField.swift in Sources */,
+				4C9B7E188A49F0241CA33C38C7D26DC4 /* TextFieldEffects-dummy.m in Sources */,
+				38D67CCC13EA655D14FE8AC86339133B /* TextFieldEffects.swift in Sources */,
+				A7D43F34F595625CFF83A1D4FFD4010E /* YokoTextField.swift in Sources */,
+				E4DE5745A783B0B1C66E71DB13373CF1 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76ADE9C23E0313992677914427D586FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
+			targetProxy = 7C42625A522DBE7E3D24AADF91F22F0E /* PBXContainerItemProxy */;
+		};
+		8E21BB71FF396A591205E5375D9DE1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = D09BAB8A20917611A8AD17E2E0EE8271 /* TextFieldEffects */;
+			targetProxy = 89A0230D4E6F964746F5A574ECBDD099 /* PBXContainerItemProxy */;
+		};
+		C87E66E997C9F19C654EB743816D5F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwachhBharatApp";
+			target = 75ACB77015303CF5C03900729C4E2617 /* Pods-SwachhBharatApp */;
+			targetProxy = F4929C2EE2CA2FA403A776ED8B991E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0277636CC10A9DFEA008F7519AA90E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA51DB8C44249B387354D1D74D6D1E03 /* TextFieldEffects.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03F151D688F60D4E64946A8240A43611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59D20A1E7AAC2B97A251A074069F862 /* Pods-SwachhBharatAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwachhBharatAppTests/Pods-SwachhBharatAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwachhBharatAppTests/Pods-SwachhBharatAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E0055DF47FFBEC03C64B827DEBE7B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877D2519CE3C647EE09FDCB3E89C80DF /* TextFieldEffects.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_MODULE_NAME = TextFieldEffects;
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49629B0DF91F6F3BEE2F4B139AFF56C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9922B8D8A2C9E19219849E9FF4C89459 /* Pods-SwachhBharatApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		793D917CED330D5CFBD170A4F76DE4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3EFFCE4ECC92048E7DC7C10C9AD564 /* Pods-SwachhBharatAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwachhBharatAppTests/Pods-SwachhBharatAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwachhBharatAppTests/Pods-SwachhBharatAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D657EC9DF01DA32154F52E340BC8D4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816768D7828AEE75908D694D8E4D5816 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCED4517368E98ACFFAC6FB75987DF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCFA788667D80B0B16D83A16BC2E5A47 /* Pods-SwachhBharatApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC18D8A74E668D9189A2E20CB487BC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E49A9633A970414F075AFB6C3CE34C9 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF4019BC68AF5B7F497F7F1A65278C3 /* Build configuration list for PBXNativeTarget "Pods-SwachhBharatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F151D688F60D4E64946A8240A43611 /* Debug */,
+				793D917CED330D5CFBD170A4F76DE4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932A22B7A94298BBE8CA8814EB2A62A0 /* Build configuration list for PBXNativeTarget "Pods-SwachhBharatApp-SwachhBharatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D657EC9DF01DA32154F52E340BC8D4F4 /* Debug */,
+				FC18D8A74E668D9189A2E20CB487BC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0016DD682E4DCA6A5CF2BFFFCA105AA /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0277636CC10A9DFEA008F7519AA90E6A /* Debug */,
+				1E0055DF47FFBEC03C64B827DEBE7B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51320C773B50DFE0F86CA905F5F3D4F /* Build configuration list for PBXNativeTarget "Pods-SwachhBharatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49629B0DF91F6F3BEE2F4B139AFF56C0 /* Debug */,
+				DCED4517368E98ACFFAC6FB75987DF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
