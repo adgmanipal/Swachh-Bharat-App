@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5637E52ED85B8CAF99FA2333 /* Pods_SwachhBharatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2578DBD8EC950889620E21 /* Pods_SwachhBharatApp.framework */; };
+		6817092524DAE1D80072040B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6817092424DAE1D80072040B /* LoginViewController.swift */; };
+		68CB69EF24DA963400BADF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB69EE24DA963400BADF73 /* AppDelegate.swift */; };
+		68CB69F124DA963400BADF73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB69F024DA963400BADF73 /* SceneDelegate.swift */; };
+		68CB69F624DA963400BADF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CB69F424DA963400BADF73 /* Main.storyboard */; };
+		68CB69F824DA963500BADF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CB69F724DA963500BADF73 /* Assets.xcassets */; };
+		68CB69FB24DA963500BADF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CB69F924DA963500BADF73 /* LaunchScreen.storyboard */; };
+		68CB6A0624DA963500BADF73 /* SwachhBharatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB6A0524DA963500BADF73 /* SwachhBharatAppTests.swift */; };
+		68CB6A1124DA963500BADF73 /* SwachhBharatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CB6A1024DA963500BADF73 /* SwachhBharatAppUITests.swift */; };
+		68EAD26F24DC48C100070CBF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAD26E24DC48C100070CBF /* HomeViewController.swift */; };
+		68EAD27124DC48DA00070CBF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EAD27024DC48DA00070CBF /* RegisterViewController.swift */; };
+		A7D5FBBA5A40069CDD465DFA /* Pods_SwachhBharatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F09198EDF0CAE1E0C0611B /* Pods_SwachhBharatAppTests.framework */; };
+		C54151E8DADB19979FA735CC /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777374224B1B758B070A2638 /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68CB6A0224DA963500BADF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CB69E324DA963400BADF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CB69EA24DA963400BADF73;
+			remoteInfo = SwachhBharatApp;
+		};
+		68CB6A0D24DA963500BADF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CB69E324DA963400BADF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CB69EA24DA963400BADF73;
+			remoteInfo = SwachhBharatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F4BBBDA8E5E5C098F4D6081 /* Pods-SwachhBharatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwachhBharatApp.debug.xcconfig"; path = "Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		110F0B7E615C1B4522B70CC5 /* Pods-SwachhBharatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwachhBharatAppTests.release.xcconfig"; path = "Target Support Files/Pods-SwachhBharatAppTests/Pods-SwachhBharatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C2578DBD8EC950889620E21 /* Pods_SwachhBharatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwachhBharatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AA9828EB722DD8EC0D6793 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6817092424DAE1D80072040B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		68CB69EB24DA963400BADF73 /* SwachhBharatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwachhBharatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CB69EE24DA963400BADF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68CB69F024DA963400BADF73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68CB69F524DA963400BADF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68CB69F724DA963500BADF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68CB69FA24DA963500BADF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68CB69FC24DA963500BADF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CB6A0124DA963500BADF73 /* SwachhBharatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwachhBharatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CB6A0524DA963500BADF73 /* SwachhBharatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwachhBharatAppTests.swift; sourceTree = "<group>"; };
+		68CB6A0724DA963500BADF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CB6A0C24DA963500BADF73 /* SwachhBharatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwachhBharatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CB6A1024DA963500BADF73 /* SwachhBharatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwachhBharatAppUITests.swift; sourceTree = "<group>"; };
+		68CB6A1224DA963500BADF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68EAD26E24DC48C100070CBF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		68EAD27024DC48DA00070CBF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		70F09198EDF0CAE1E0C0611B /* Pods_SwachhBharatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwachhBharatAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		777374224B1B758B070A2638 /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwachhBharatApp_SwachhBharatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DDFD4C731EDF93603483B0 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DED75CDD00B3FC9A002B77C3 /* Pods-SwachhBharatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwachhBharatAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SwachhBharatAppTests/Pods-SwachhBharatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF824EFBD8FC8830837DF516 /* Pods-SwachhBharatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwachhBharatApp.release.xcconfig"; path = "Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CB69E824DA963400BADF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5637E52ED85B8CAF99FA2333 /* Pods_SwachhBharatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CB69FE24DA963500BADF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D5FBBA5A40069CDD465DFA /* Pods_SwachhBharatAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CB6A0924DA963500BADF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54151E8DADB19979FA735CC /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68CB69E224DA963400BADF73 = {
+			isa = PBXGroup;
+			children = (
+				68CB69ED24DA963400BADF73 /* SwachhBharatApp */,
+				68CB6A0424DA963500BADF73 /* SwachhBharatAppTests */,
+				68CB6A0F24DA963500BADF73 /* SwachhBharatAppUITests */,
+				68CB69EC24DA963400BADF73 /* Products */,
+				FD8BA059EAB9CFD10BB030BB /* Frameworks */,
+				CF92630BD8691932F079B16D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		68CB69EC24DA963400BADF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CB69EB24DA963400BADF73 /* SwachhBharatApp.app */,
+				68CB6A0124DA963500BADF73 /* SwachhBharatAppTests.xctest */,
+				68CB6A0C24DA963500BADF73 /* SwachhBharatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68CB69ED24DA963400BADF73 /* SwachhBharatApp */ = {
+			isa = PBXGroup;
+			children = (
+				68EAD26D24DC489000070CBF /* ViewControllers */,
+				68CB69F024DA963400BADF73 /* SceneDelegate.swift */,
+				68CB69F424DA963400BADF73 /* Main.storyboard */,
+				68CB69EE24DA963400BADF73 /* AppDelegate.swift */,
+				68CB69F724DA963500BADF73 /* Assets.xcassets */,
+				68CB69F924DA963500BADF73 /* LaunchScreen.storyboard */,
+				68CB69FC24DA963500BADF73 /* Info.plist */,
+			);
+			path = SwachhBharatApp;
+			sourceTree = "<group>";
+		};
+		68CB6A0424DA963500BADF73 /* SwachhBharatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				68CB6A0524DA963500BADF73 /* SwachhBharatAppTests.swift */,
+				68CB6A0724DA963500BADF73 /* Info.plist */,
+			);
+			path = SwachhBharatAppTests;
+			sourceTree = "<group>";
+		};
+		68CB6A0F24DA963500BADF73 /* SwachhBharatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68CB6A1024DA963500BADF73 /* SwachhBharatAppUITests.swift */,
+				68CB6A1224DA963500BADF73 /* Info.plist */,
+			);
+			path = SwachhBharatAppUITests;
+			sourceTree = "<group>";
+		};
+		68EAD26D24DC489000070CBF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68EAD26E24DC48C100070CBF /* HomeViewController.swift */,
+				6817092424DAE1D80072040B /* LoginViewController.swift */,
+				68EAD27024DC48DA00070CBF /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF92630BD8691932F079B16D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F4BBBDA8E5E5C098F4D6081 /* Pods-SwachhBharatApp.debug.xcconfig */,
+				DF824EFBD8FC8830837DF516 /* Pods-SwachhBharatApp.release.xcconfig */,
+				89DDFD4C731EDF93603483B0 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig */,
+				38AA9828EB722DD8EC0D6793 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig */,
+				DED75CDD00B3FC9A002B77C3 /* Pods-SwachhBharatAppTests.debug.xcconfig */,
+				110F0B7E615C1B4522B70CC5 /* Pods-SwachhBharatAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD8BA059EAB9CFD10BB030BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C2578DBD8EC950889620E21 /* Pods_SwachhBharatApp.framework */,
+				777374224B1B758B070A2638 /* Pods_SwachhBharatApp_SwachhBharatAppUITests.framework */,
+				70F09198EDF0CAE1E0C0611B /* Pods_SwachhBharatAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68CB69EA24DA963400BADF73 /* SwachhBharatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CB6A1524DA963500BADF73 /* Build configuration list for PBXNativeTarget "SwachhBharatApp" */;
+			buildPhases = (
+				4FCC06CEDF2340674C7BD543 /* [CP] Check Pods Manifest.lock */,
+				68CB69E724DA963400BADF73 /* Sources */,
+				68CB69E824DA963400BADF73 /* Frameworks */,
+				68CB69E924DA963400BADF73 /* Resources */,
+				739B4FC8DACB15587A8905B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwachhBharatApp;
+			productName = SwachhBharatApp;
+			productReference = 68CB69EB24DA963400BADF73 /* SwachhBharatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CB6A0024DA963500BADF73 /* SwachhBharatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CB6A1824DA963500BADF73 /* Build configuration list for PBXNativeTarget "SwachhBharatAppTests" */;
+			buildPhases = (
+				E199A176C4E732837071E2FE /* [CP] Check Pods Manifest.lock */,
+				68CB69FD24DA963500BADF73 /* Sources */,
+				68CB69FE24DA963500BADF73 /* Frameworks */,
+				68CB69FF24DA963500BADF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68CB6A0324DA963500BADF73 /* PBXTargetDependency */,
+			);
+			name = SwachhBharatAppTests;
+			productName = SwachhBharatAppTests;
+			productReference = 68CB6A0124DA963500BADF73 /* SwachhBharatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68CB6A0B24DA963500BADF73 /* SwachhBharatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CB6A1B24DA963500BADF73 /* Build configuration list for PBXNativeTarget "SwachhBharatAppUITests" */;
+			buildPhases = (
+				02814F5D9BDF2FAED154BF10 /* [CP] Check Pods Manifest.lock */,
+				68CB6A0824DA963500BADF73 /* Sources */,
+				68CB6A0924DA963500BADF73 /* Frameworks */,
+				68CB6A0A24DA963500BADF73 /* Resources */,
+				D741BB756F5FF6CB33F9ED9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68CB6A0E24DA963500BADF73 /* PBXTargetDependency */,
+			);
+			name = SwachhBharatAppUITests;
+			productName = SwachhBharatAppUITests;
+			productReference = 68CB6A0C24DA963500BADF73 /* SwachhBharatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68CB69E324DA963400BADF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = PragnyaDesh;
+				TargetAttributes = {
+					68CB69EA24DA963400BADF73 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					68CB6A0024DA963500BADF73 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68CB69EA24DA963400BADF73;
+					};
+					68CB6A0B24DA963500BADF73 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 68CB69EA24DA963400BADF73;
+					};
+				};
+			};
+			buildConfigurationList = 68CB69E624DA963400BADF73 /* Build configuration list for PBXProject "SwachhBharatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68CB69E224DA963400BADF73;
+			productRefGroup = 68CB69EC24DA963400BADF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CB69EA24DA963400BADF73 /* SwachhBharatApp */,
+				68CB6A0024DA963500BADF73 /* SwachhBharatAppTests */,
+				68CB6A0B24DA963500BADF73 /* SwachhBharatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68CB69E924DA963400BADF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CB69FB24DA963500BADF73 /* LaunchScreen.storyboard in Resources */,
+				68CB69F824DA963500BADF73 /* Assets.xcassets in Resources */,
+				68CB69F624DA963400BADF73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CB69FF24DA963500BADF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CB6A0A24DA963500BADF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02814F5D9BDF2FAED154BF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwachhBharatApp-SwachhBharatAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FCC06CEDF2340674C7BD543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwachhBharatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739B4FC8DACB15587A8905B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwachhBharatApp/Pods-SwachhBharatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D741BB756F5FF6CB33F9ED9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwachhBharatApp-SwachhBharatAppUITests/Pods-SwachhBharatApp-SwachhBharatAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E199A176C4E732837071E2FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwachhBharatAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68CB69E724DA963400BADF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6817092524DAE1D80072040B /* LoginViewController.swift in Sources */,
+				68EAD27124DC48DA00070CBF /* RegisterViewController.swift in Sources */,
+				68CB69EF24DA963400BADF73 /* AppDelegate.swift in Sources */,
+				68CB69F124DA963400BADF73 /* SceneDelegate.swift in Sources */,
+				68EAD26F24DC48C100070CBF /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CB69FD24DA963500BADF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CB6A0624DA963500BADF73 /* SwachhBharatAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CB6A0824DA963500BADF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CB6A1124DA963500BADF73 /* SwachhBharatAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68CB6A0324DA963500BADF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68CB69EA24DA963400BADF73 /* SwachhBharatApp */;
+			targetProxy = 68CB6A0224DA963500BADF73 /* PBXContainerItemProxy */;
+		};
+		68CB6A0E24DA963500BADF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68CB69EA24DA963400BADF73 /* SwachhBharatApp */;
+			targetProxy = 68CB6A0D24DA963500BADF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68CB69F424DA963400BADF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CB69F524DA963400BADF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68CB69F924DA963500BADF73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CB69FA24DA963500BADF73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68CB6A1324DA963500BADF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68CB6A1424DA963500BADF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68CB6A1624DA963500BADF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4BBBDA8E5E5C098F4D6081 /* Pods-SwachhBharatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XSL3B46C;
+				INFOPLIST_FILE = SwachhBharatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PragnyaDesh.SwachhBharatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68CB6A1724DA963500BADF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF824EFBD8FC8830837DF516 /* Pods-SwachhBharatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XSL3B46C;
+				INFOPLIST_FILE = SwachhBharatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PragnyaDesh.SwachhBharatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68CB6A1924DA963500BADF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED75CDD00B3FC9A002B77C3 /* Pods-SwachhBharatAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XSL3B46C;
+				INFOPLIST_FILE = SwachhBharatAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PragnyaDesh.SwachhBharatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwachhBharatApp.app/SwachhBharatApp";
+			};
+			name = Debug;
+		};
+		68CB6A1A24DA963500BADF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110F0B7E615C1B4522B70CC5 /* Pods-SwachhBharatAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XSL3B46C;
+				INFOPLIST_FILE = SwachhBharatAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PragnyaDesh.SwachhBharatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwachhBharatApp.app/SwachhBharatApp";
+			};
+			name = Release;
+		};
+		68CB6A1C24DA963500BADF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DDFD4C731EDF93603483B0 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XSL3B46C;
+				INFOPLIST_FILE = SwachhBharatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PragnyaDesh.SwachhBharatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwachhBharatApp;
+			};
+			name = Debug;
+		};
+		68CB6A1D24DA963500BADF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AA9828EB722DD8EC0D6793 /* Pods-SwachhBharatApp-SwachhBharatAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99XSL3B46C;
+				INFOPLIST_FILE = SwachhBharatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PragnyaDesh.SwachhBharatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwachhBharatApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68CB69E624DA963400BADF73 /* Build configuration list for PBXProject "SwachhBharatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CB6A1324DA963500BADF73 /* Debug */,
+				68CB6A1424DA963500BADF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CB6A1524DA963500BADF73 /* Build configuration list for PBXNativeTarget "SwachhBharatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CB6A1624DA963500BADF73 /* Debug */,
+				68CB6A1724DA963500BADF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CB6A1824DA963500BADF73 /* Build configuration list for PBXNativeTarget "SwachhBharatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CB6A1924DA963500BADF73 /* Debug */,
+				68CB6A1A24DA963500BADF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CB6A1B24DA963500BADF73 /* Build configuration list for PBXNativeTarget "SwachhBharatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CB6A1C24DA963500BADF73 /* Debug */,
+				68CB6A1D24DA963500BADF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68CB69E324DA963400BADF73 /* Project object */;
+}
